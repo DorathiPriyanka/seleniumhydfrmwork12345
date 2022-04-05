@@ -1,0 +1,39 @@
+2022-04-02 00:01:41 DEBUG SearchDataDrivenTest:77 - initialize the page objects
+2022-04-02 00:01:41 DEBUG SearchDataDrivenTest:32 - executing the doLoginTest()
+2022-04-02 00:01:41 DEBUG SearchDataDrivenTest:33 - *********verify linkedin login page elements and title****************
+2022-04-02 00:01:41 DEBUG SearchDataDrivenTest:34 - verify the linkedin home page and title
+2022-04-02 00:01:41 DEBUG linkedinHomePage:51 - verify the linkedinhomepage header text:[[ChromeDriver: chrome on WINDOWS (434a2d1f8fa4bb36c0d7c337eb820efb)] -> xpath: //h1[contains(@data-test-id,'hero__headline')]]
+2022-04-02 00:01:41 DEBUG linkedinHomePage:44 - verify the linkedinhomepage title:LinkedIn: Log In or Sign Up
+2022-04-02 00:01:41 DEBUG linkedinHomePage:57 - verify the linkedin logo element
+2022-04-02 00:01:41 DEBUG SearchDataDrivenTest:38 - click on signin link
+2022-04-02 00:01:41 DEBUG linkedinHomePage:63 - click on linkedin homepage signin link
+2022-04-02 00:02:03 DEBUG SearchDataDrivenTest:41 - *********verify linkedin login page elements and title****************
+2022-04-02 00:02:03 DEBUG linkedinHomePage:68 - verify the signinpage title:LinkedIn Login, Sign in | LinkedIn
+2022-04-02 00:02:13 DEBUG SearchDataDrivenTest:44 - perform the login test
+2022-04-02 00:02:13 DEBUG linkedinHomePage:86 - started executing doLogin(String uname,String pwd)
+2022-04-02 00:02:13 DEBUG linkedinHomePage:87 - clear the content in the email editbox
+2022-04-02 00:02:13 DEBUG linkedinHomePage:89 - type thedorathi000369@gmail.comin emailEditBox
+2022-04-02 00:02:13 DEBUG linkedinHomePage:91 - type theShree@123..!in the password editbox
+2022-04-02 00:02:13 DEBUG linkedinHomePage:81 - click on linkedin homepage signin button
+2022-04-02 00:02:17 DEBUG SearchDataDrivenTest:46 - *************login is done****************
+2022-04-02 00:02:17 DEBUG SearchDataDrivenTest:67 - read the data to @DataProvider annotation
+2022-04-02 00:02:17 DEBUG ExcelUtils:31 - Specify the path of file :E:\Users\msrih\eclipse-workspace\HybridFrameWorkMarch2022\src\test\java\com\qa\linkedin\data\searchdatasheet.xlsx
+2022-04-02 00:02:17 DEBUG ExcelUtils:34 - read the file
+2022-04-02 00:02:17 DEBUG ExcelUtils:36 - Load workbook
+2022-04-02 00:02:18 DEBUG ExcelUtils:41 - fetch the row count
+2022-04-02 00:02:18 DEBUG ExcelUtils:43 - number of rows in the excel sheet is-->7
+2022-04-02 00:02:18 DEBUG ExcelUtils:45 - number of columns in the excel sheet is -->1
+2022-04-02 00:02:18 DEBUG SearchDataDrivenTest:51 - *****perform dosearchpeopletest for: hari
+2022-04-02 00:02:18 DEBUG LinkedinLoggedinPage:38 - verify the linkedin loggedin page title:Feed | LinkedIn
+2022-04-02 00:02:18 DEBUG LinkedinLoggedinPage:45 - verify the linkedinhomepage header text:[[ChromeDriver: chrome on WINDOWS (434a2d1f8fa4bb36c0d7c337eb820efb)] -> xpath: //div[contains(@class,'feed-identity-module')]]
+2022-04-02 00:02:18 DEBUG SearchDataDrivenTest:54 - type the value hari in search edit box
+2022-04-02 00:02:18 DEBUG SearchResultsPage:44 - click on home tab
+2022-04-02 00:02:19 DEBUG LinkedinLoggedinPage:65 - started executing doPeopleSearch(String keywprd)
+2022-04-02 00:02:19 DEBUG LinkedinLoggedinPage:66 - clear the cntent in the search editbox
+2022-04-02 00:02:19 DEBUG LinkedinLoggedinPage:68 - type the search keyword:hariin search editbox
+2022-04-02 00:02:19 DEBUG LinkedinLoggedinPage:70 - press the enter key on search editbox
+2022-04-02 00:02:19 DEBUG SearchDataDrivenTest:57 - fetch the search results count for:hari
+2022-04-02 00:02:19 DEBUG SearchResultsPage:33 - verify the search results page title:Search | LinkedIn
+2022-04-02 00:02:20 DEBUG SearchResultsPage:60 - fetch the results count text
+2022-04-02 00:02:20 DEBUG SearchDataDrivenTest:51 - *****perform dosearchpeopletest for: maruthi
+2022-04-02 00:02:20 DEBUG LinkedinLoggedinPage:38 - verify the linkedin loggedin page title:Feed | LinkedIn
